@@ -16,7 +16,7 @@ body{
 	min-height: 75px;
 }
 
-nav {
+ul {
 	list-style: none;
 	flex-wrap: wrap;
 	justify-content: space-around;
