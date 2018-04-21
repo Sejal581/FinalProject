@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Knowledge Test</title>
+		<title>Medscape Knowledge Test</title>
 		<meta property="og:title" content="Knowledge Test" />
 		<meta property="og:type" content="image/jpeg" />
 		<meta property="og:url" content="#" />
@@ -10,43 +10,68 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	</head>
 	<body>	
+			<!--header-->
 			<div class="row bookend">
-				<h1>Knowledge Test</h1>
+				<h1>Medscape Knowledge Test</h1>
 				<nav>
 					<ul>
 						<li>Home</li>
-						<li>Products</li>
-						<li>Processess</li>
+						<li><a href="#" id="product">Products</a></li>
+						<li><a href="#" id="Processes">Processes</a></li>
 					</ul>
 				</nav>	
 			</div>
+			<!--end of header header-->	
+			<!--intro
 			<div class="row row-flex">
-				<p> Test your knowledge on Medscape's Products </p>
+				<p class="intro" id="#product"> Test your knowledge on Medscape's Products </p>
+			</div>
+			-->
+			<!--start of product, brandalert
+			<div class="row product row-flex">
+				<div class="col">BrandAlert</div>
+			</div>	-->
+					<button class="collapsible">Test your knowledge of Medscape's Products</button>
+						<div class="content">
+				  			<p>Intro goes here</p>
+				  			<button class="collapsible">BrandAlert</button>
+						<div class="content">
+				  			<p>Quiz goes here</p>
+				  		</div>
+				  		</div>
+
+
+				 <!--Start of quiz for brandalert
+				 <div id="quiz"></div>
+				 <button id="submit">Submit Quiz</button>
+				 <div id="results"></div>
+				 <!--end of BA quiz-->
+			<!--
+			<div class="row product row-flex">
+				<div class="col">Drivers</div> 
 			</div>
 			<div class="row product row-flex">
-				<div class="col">BrandAlert</div> <!-- add Collapsible panel/Accordion -->
+				<div class="col">Infosite</div> 
 			</div>
 			<div class="row product row-flex">
-				<div class="col">Drivers</div> <!-- add Collapsible panel/Accordion -->
+				<div class="col">VCB</div> 
 			</div>
 			<div class="row product row-flex">
-				<div class="col">Infosite</div> <!-- add Collapsible panel/Accordion -->
+				<div class="col">PER</div> 
 			</div>
 			<div class="row product row-flex">
-				<div class="col">VCB</div> <!-- add Collapsible panel/Accordion -->
+				<div class="col">BrandPlay</div> 
 			</div>
 			<div class="row product row-flex">
-				<div class="col">PER</div> <!-- add Collapsible panel/Accordion -->
+				<div class="col">BrandAdvance</div> 
 			</div>
-			<div class="row product row-flex">
-				<div class="col">BrandPlay</div> <!-- add Collapsible panel/Accordion -->
-			</div>
-			<div class="row product row-flex">
-				<div class="col">BrandAdvance</div> <!-- add Collapsible panel/Accordion -->
-			</div>
+		-->
+		<!--PROCESS SECTION
 			<div class="row process row-flex">
-				<div class="col">Process Section</div>
+				<div class="col" id="#Processes">Process Section</div>
 			</div>
-		<div class="row bookend"></div>
+		-->	
+		<!--<div class="row bookend"></div>-->
+	<script src="js/script.js"></script>
 	</body>
 </html>
