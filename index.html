@@ -1,77 +1,95 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Medscape Knowledge Test</title>
+		<title>Knowledge Test</title>
 		<meta property="og:title" content="Knowledge Test" />
 		<meta property="og:type" content="image/jpeg" />
 		<meta property="og:url" content="#" />
 		<meta property="og:image" content="#" />
 		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href="styles/paper-collapse.css">
+		<link rel="stylesheet" href="styles/js-quiz.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	</head>
+	  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 	<body>	
 			<!--header-->
 			<div class="row bookend">
-				<h1>Medscape Knowledge Test</h1>
+				<h1>Knowledge Test</h1>
 				<nav>
 					<ul>
 						<li>Home</li>
-						<li><a href="#" id="product">Products</a></li>
 						<li><a href="#" id="Processes">Processes</a></li>
+						<li><a href="#" id="product">Products</a></li>
+						
 					</ul>
 				</nav>	
 			</div>
 			<!--end of header header-->	
-			<!--intro
-			<div class="row row-flex">
-				<p class="intro" id="#product"> Test your knowledge on Medscape's Products </p>
+			<div class="row">
+				<h2 id="#Processes"> Test your knowledge on our Process </h2>
 			</div>
-			-->
-			<!--start of product, brandalert
-			<div class="row product row-flex">
-				<div class="col">BrandAlert</div>
-			</div>	-->
-					<button class="collapsible">Test your knowledge of Medscape's Products</button>
-						<div class="content">
-				  			<p>Intro goes here</p>
-				  			<button class="collapsible">BrandAlert</button>
-						<div class="content">
-				  			<p>Quiz goes here</p>
-				  		</div>
-				  		</div>
+			<!--Collapse 1-->
+			<div class="collapse-card">
+ 				<div class="collapse-card__heading">
+    				<div class="collapse-card__title">
+      					<i class="fa fa-question-circle fa-2x fa-fw"></i>
+     						<h3>Process #1</h3>
+    				</div>
+ 				</div>
+ 			<div class="collapse-card__body">
+ 				<!-- start-->
+ 				 <div id="quiz">
+  				<div id="quiz-header">
+    				<h1>Reminders from WS meeting</h1>
+    				<p class="faded">How well do you remember our reminders</p>
+  				</div>
+  				<div id="quiz-start-screen">
+    				<p><a href="#" id="quiz-start-btn" class="quiz-button">Start</a></p>
+  				</div>
+			</div>
+			</div>
+  			</div>
+			</div>
+			<!--Collapse 2-->
+			<div class="collapse-card">
+ 				<div class="collapse-card__heading">
+    				<div class="collapse-card__title">
+      					<i class="fa fa-question-circle fa-2x fa-fw"></i>
+     						<h3>Process #2</h3>
+    				</div>
+ 				</div>
+ 			<div class="collapse-card__body">
+ 				<!-- start-->
+ 				 <div id="quiz">
+  				<div id="quiz-header">
+    				<h1>Acceleration Process</h1>
+    				<p class="faded">How well do you know about our acceleration?</p>
+  				</div>
+  				<div id="quiz-start-screen">
+    				<p><a href="#" id="quiz-start-btn" class="quiz-button">Start</a></p>
+  				</div>
+			</div>
+			</div>
+  			</div>
+			</div>
 
 
-				 <!--Start of quiz for brandalert
-				 <div id="quiz"></div>
-				 <button id="submit">Submit Quiz</button>
-				 <div id="results"></div>
-				 <!--end of BA quiz-->
-			<!--
+		
+		<!--PROduct SECTION
 			<div class="row product row-flex">
-				<div class="col">Drivers</div> 
-			</div>
-			<div class="row product row-flex">
-				<div class="col">Infosite</div> 
-			</div>
-			<div class="row product row-flex">
-				<div class="col">VCB</div> 
-			</div>
-			<div class="row product row-flex">
-				<div class="col">PER</div> 
-			</div>
-			<div class="row product row-flex">
-				<div class="col">BrandPlay</div> 
-			</div>
-			<div class="row product row-flex">
-				<div class="col">BrandAdvance</div> 
-			</div>
-		-->
-		<!--PROCESS SECTION
-			<div class="row process row-flex">
-				<div class="col" id="#Processes">Process Section</div>
+				<div class="col" id="#product">Prduct Section</div>
 			</div>
 		-->	
 		<!--<div class="row bookend"></div>-->
+		<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src='https://jchamill.github.io/jquery-quiz/jquery.quiz-min.js'></script>
+  	<script src="js/paper-collapse.min.js"></script>
+  	<script src="js/js-quiz.js"></script>
 	<script src="js/script.js"></script>
+
+
 	</body>
 </html>
