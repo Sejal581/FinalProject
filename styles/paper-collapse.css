@@ -10,7 +10,7 @@
 .collapse-card {
   background-color: #fff;
   border-bottom: 1px solid #eee;
-  color: #777;
+  color: black;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -26,7 +26,7 @@
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18824);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18824);
   z-index: 200;
-  margin: 1rem -1rem;
+  margin: 1rem 1em;
 }
 .collapse-card.active .collapse-card__heading:hover::after {
   content: "\f066";
@@ -52,7 +52,7 @@
 }
 .collapse-card__heading::after {
   color: #404040;
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Regular';
   font-size: 1rem;
   line-height: 2rem;
   padding-left: .4rem;

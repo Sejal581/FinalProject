@@ -12,6 +12,10 @@ h2{
 	color: #005b81;
 	margin-left: 25px;
 }
+h3{
+  margin: 0 2rem 0 0;
+  
+}
 .row {
 	box-sizing: border-box;
 	margin-bottom: 10px;
