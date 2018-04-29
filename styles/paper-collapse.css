@@ -10,7 +10,7 @@
 .collapse-card {
   background-color: #fff;
   border-bottom: 1px solid #eee;
-  color: black;
+  color: #505050;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -69,6 +69,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   background-color: #005b81;
+  color: #ffffff;
 }
 
 .collapse-card__body {
