@@ -1,3 +1,6 @@
+FontAwesomeConfig = { searchPseudoElements: true };
+
+
 const answers = [];
 $('#quiz').quiz({
   //resultsScreen: '#results-screen',

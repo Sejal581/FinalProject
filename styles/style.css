@@ -9,19 +9,18 @@ h1{
 }
 h2{
 	text-align: center;
-	color: #005b81;
-	margin-left: 25px;
+	color: #66adcc;
 }
 h3{
   margin: 0 2rem 0 0;
-
+  padding-top: .25em;
+  padding-bottom: .25em;
 }
 .row {
 	box-sizing: border-box;
 	margin-bottom: 10px;
 
 }
-
 .bookend {
 	align-content: center;
 	border-bottom-style: solid;
@@ -107,6 +106,7 @@ ul {
 
 .question {
     font-size: 1.25em;
+    text-align: center;
 }
 
 .answers {
@@ -199,12 +199,14 @@ ul {
   margin: 1rem 1em;
 }
 .collapse-card.active .collapse-card__heading:hover::after {
-  font-family: "Font Awesome 5 Solid";  
+  font-family: "Font Awesome 5 Free";  
   content: "\f31e";
+  font-weight: 900;
 }
 .collapse-card .collapse-card__heading:hover::after {
- font-family: "Font Awesome 5 Solid";  
+ font-family: "Font Awesome 5 Free";  
  content: "\f31e";
+ font-weight: 900;
 }
 
 .collapse-card__heading {
@@ -224,7 +226,7 @@ ul {
 }
 .collapse-card__heading::after {
   color: #404040;
-  font-family: "Font Awesome 5 Solid";
+  font-family: "Font Awesome 5 Free";
   font-size: 1rem;
   line-height: 2rem;
   padding-left: .4rem;
@@ -235,13 +237,14 @@ ul {
 
 .collapse-card__title {
   font-size: 1rem;
-  line-height: 2rem;
   margin: 0 2rem 0 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   background-color: #005b81;
   color: #ffffff;
+  padding-top: .25em;
+  padding-bottom: .25rem;
 }
 
 .collapse-card__body {
