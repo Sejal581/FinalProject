@@ -1,5 +1,7 @@
 FontAwesomeConfig = { searchPseudoElements: true };
 
+ $(".collapse-card").paperCollapse();
+
 
 const answers = [];
 $('#quiz').quiz({
@@ -59,9 +61,10 @@ $('#quiz').quiz({
   	answers.push(isCorrect);
   }
 });
-
- $(".collapse-card").paperCollapse();
-
+$(document).on('click', '#quiz-restart-btn, #quiz-retry-btn', function(e) {
+  e.preventDefault();
+  $(".js-quiz-submit").hide();
+});
 
 const Airtable = require('airtable')
 Airtable.configure({
@@ -83,9 +86,6 @@ const base = Airtable.base('appJpzI0JJrgMV8rq');
 		// TODO: print out to the HTML page that quiz has been submitted...
 	});
  })
-
-
-
 
 const $name =$('.js-name');
 const $submit =$('.js-submit');
@@ -115,3 +115,6 @@ $name.on('keydown', e => {
 })
 
 */
+
+//quiz 2
+
