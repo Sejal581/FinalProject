@@ -49,7 +49,7 @@ $('#quiz').quiz({
         'No'
       ],
       'correctIndex': 0,
-      'correctResponse': 'Correct Answerr!',
+      'correctResponse': 'Correct Answer!',
       'incorrectResponse': 'Wrong! Proddev and Staging should always match'
     }
   ],
